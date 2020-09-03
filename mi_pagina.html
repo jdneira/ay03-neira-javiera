@@ -2,11 +2,12 @@
     <head>
         <meta charset="utf-8"/>
         <title>Mi Primer Sitio</title>
+        <link href="estilo.css" rel="stylesheet"/>
     </head>
-    <h1>Perros</h1>
+    <h1 id='titulo'>Perros</h1>
     <hr/>
     <body>
-    <header>
+    <header id="cabecera">
         <nav>
             <ul>
                 <li><a href= "https://es.wikipedia.org/wiki/Canis_lupus_familiaris">Razas</a></li>
@@ -16,16 +17,24 @@
         </nav>
     </header>
     <hr/>   
-    <div>Los <strong>perros</strong> son lo mejor del mundo.</div>
-    <div>
-        <h2>Beagle</h2>
-        <img src="beagle.jpg"/>
+    <div id='texto'>Los <strong>perros</strong> son lo mejor del mundo.</div>
+    <div class='parrafo'>
+        El perro doméstico proviene de un ancestro o grupo 
+        ancestral común que data de hace aproximadamente treinta 
+        mil años y desde entonces se ha extendido a todas partes del mundo
     </div>
-    <div>Mi perro es un <strong>beagle</strong>.</div>
-    <div>
-        <h2>Bulldog Francés</h2>
-        <img src="bulldog-frances.jpg" width="220"/>
+    <div class='div'>
+        <h2 class='subtitulo'>Beagle</h2>
+        <img class='img' src="beagle.jpg"/>
+        <p class='parr'>Mi perro es un <strong>beagle</strong>.</p>
     </div>
-    <div>El perro de mi pololo es un <strong>bulldog francés</strong>.</div>
+    <div class='div'></div>
+    <div class='div'>
+        <h2 class='subtitulo'>Bulldog Francés</h2>
+        <img class= 'img' src="bulldog-frances.jpg" width="220" id='img'/>
+        <p class='parr'>El perro de mi pololo es un <strong>bulldog francés</strong>.</p>
+    </div>
+
+
     </body>
 </html>
